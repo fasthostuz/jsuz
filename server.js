@@ -62,9 +62,9 @@ const gameConsts = {
   grMode: 2,
 };
 
-const telegramToken = checkEnvironments('1352468214:AAFY5bBmtjJhTHOcsa4KgWXbBBpbPhcmGtE');
+const telegramToken = checkEnvironments('959108984:AAFt_JXY0-niLhhQbmSHBVvegm1xp2J7C3M');
 const bot = new Bot(telegramToken, { polling: true });
-const tSubscryber = checkEnvironments('-1001381773808');
+const tSubscryber = checkEnvironments('1167464359');
 
 // Бытует мнение, что эти комбинации, сулят скорый выйгрыш, сам не уверен.
 function signals(cart, game, sp){
